@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChakHao - The Taste of Home</title>
+    
+    <link rel="icon" type="image/png" href="https://files.catbox.moe/skenzm.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="home-page">
+
+    <div id="loader-wrapper">
+        <div class="loader-content">
+            <i class="fas fa-utensils fa-spin"></i>
+            <p>Preparing the flavors...</p>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="https://files.catbox.moe/skenzm.png" alt="ChakHao Logo" class="logo-img">
+        </a>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="chefs.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <img src="https://files.catbox.moe/skenzm.png" alt="ChakHao Brand" class="hero-logo">
+            
+            <span class="subtitle">Simply Tasty</span>
+            <h1>ChakHao</h1>
+            <p>Authentic flavors brought to life by passion and tradition.</p>
+            <div class="btn-group">
+                <a href="menu.html" class="btn btn-primary">Order Now</a>
+                <a href="#about" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <section class="container welcome-section">
+        <div class="text-center">
+            <h2 class="section-title">Experience "ChakHao"</h2>
+            <p class="lead-text">
+                We don't just serve food; we serve memories, laughter, and the warmth of a shared meal.
+                Our promise is simple: authentic flavors in every bite that bring you back to the comfort of home.
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="container about-section">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="https://files.catbox.moe/iq71kb.webp" alt="ChakHao Team">
+                <div class="exp-badge">
+                    <span>Est.</span> 2015
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Our Journey</h3>
+                <p><strong>ChakHao</strong> wasn't built by a single person; it was born from a collective dream. 
+                We are a team of childhood friends who grew up believing that the best conversations happen around the dinner table.</p>
+                
+                <p>Frustrated by the lack of authentic flavors in the city, we decided to open our own kitchen. 
+                What started as a small street stall has grown into the restaurant you see today, but our mission remains the same: 
+                to make every bite unforgettable.</p>
+                
+                <ul class="features-list">
+                    <li><i class="fas fa-users"></i> Family-Owned & Operated</li>
+                    <li><i class="fas fa-leaf"></i> Locally Sourced Ingredients</li>
+                    <li><i class="fas fa-heart"></i> Cooked with Love</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer style="padding: 20px 0;"></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
