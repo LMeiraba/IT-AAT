@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - ChakHao</title>
+    <link rel="icon" type="image/png" href="https://files.catbox.moe/skenzm.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="https://files.catbox.moe/skenzm.png" alt="ChakHao Logo" class="logo-img">
+        </a>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" style="height: 40vh; background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');">
+        <div class="hero-content">
+            <h1 style="font-size: 3rem;">Our Menu</h1>
+            <p>Handcrafted flavors for every palate.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <div class="menu-controls">
+            <div class="filters">
+                <button class="filter-btn active" data-cat="all">All</button>
+                <button class="filter-btn" data-cat="starter">Starters</button>
+                <button class="filter-btn" data-cat="main">Mains</button>
+                <button class="filter-btn" data-cat="dessert">Desserts</button>
+            </div>
+
+            <div class="tools-row">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search dishes...">
+                </div>
+                
+                <select id="sortSelect">
+                    <option value="default">Sort By: Recommended</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="alpha-asc">Name: A to Z</option>
+                </select>
+
+                <label class="veg-toggle">
+                    <input type="checkbox" id="vegCheckbox">
+                    <span class="slider"></span>
+                    <span class="label-text">Veg Only</span>
+                </label>
+            </div>
+        </div>
+
+        <div id="menu-grid" class="menu-grid">
+            <p style="text-align:center; grid-column: 1/-1;">Loading menu...</p>
+        </div>
+
+    </main>
+
+    <footer style="padding: 20px 0;"></footer>
+    <script src="script.js"></script>
+</body>
+</html>

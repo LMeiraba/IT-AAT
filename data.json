@@ -1,0 +1,373 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "Grilled Salmon",
+            "desc": "Fresh Atlantic salmon fillet served with roasted asparagus and quinoa.",
+            "long_des": "A sustainably sourced, premium Atlantic salmon fillet, char-grilled to lock in natural juices and flavor. It rests on a bed of fluffy, nutty quinoa and is accompanied by tender, oven-roasted asparagus spears, finished with a drizzle of zesty lemon-dill beurre blanc.",
+            "price": 24.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://images.unsplash.com/photo-1467003909585-2f8a7270028d?w=500",
+            "bg": ""
+        },
+        {
+            "id": 2,
+            "name": "Bruschetta",
+            "desc": "Grilled sourdough bread topped with fresh tomatoes, basil, garlic, and olive oil.",
+            "long_des": "Traditional Italian antipasto featuring thick slices of artisanal sourdough bread, grilled to a perfect crunch. The topping consists of vine-ripened diced tomatoes, fresh aromatic basil, and minced garlic, all marinated in extra virgin olive oil and finished with a balsamic glaze reduction.",
+            "price": 8.50,
+            "cat": "starter",
+            "veg": true,
+            "img": "https://images.unsplash.com/photo-1572695157363-bc31c5ddf3aa?w=500",
+            "bg": ""
+        },
+        {
+            "id": 3,
+            "name": "Lava Cake",
+            "desc": "Warm chocolate cake with a gooey center, served with vanilla bean ice cream.",
+            "long_des": "A decadent dessert experience featuring a rich dark chocolate cake with a molten, liquid chocolate center that flows upon the first spoon. It is served warm to contrast with a cold scoop of premium Madagascar vanilla bean ice cream and dusted with powdered sugar.",
+            "price": 9.50,
+            "cat": "dessert",
+            "veg": true,
+            "img": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=500",
+            "bg": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1920"
+        },
+        {
+            "id": 4,
+            "name": "Steak Frites",
+            "desc": "Juicy ribeye steak cooked to perfection, served with crispy french fries.",
+            "long_des": "A classic French bistro staple featuring a 10oz prime ribeye steak, seasoned with sea salt and cracked pepper, then pan-seared to your preferred temperature. Served alongside a generous mound of thin-cut, double-fried crispy golden french fries and a side of house-made garlic aioli.",
+            "price": 29.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=500",
+            "bg": ""
+        },
+        {
+            "id": 5,
+            "name": "Caesar Salad",
+            "desc": "Crisp romaine lettuce, parmesan cheese, croutons, and grilled chicken breast.",
+            "long_des": "Fresh hearts of romaine lettuce tossed in our signature creamy anchovy dressing. The salad is generously topped with shaved aged Parmesan cheese, herb-buttered sourdough croutons, and warm, tender slices of marinated grilled chicken breast for a satisfying crunch.",
+            "price": 12.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=500",
+            "bg": ""
+        },
+        {
+            "id": 6,
+            "name": "Berry Cheesecake",
+            "desc": "New York style cheesecake topped with fresh mixed berry compote.",
+            "long_des": "A velvety smooth, classic New York-style cheesecake baked on a buttery graham cracker crust. It is crowned with a house-made sweet and tart compote made from fresh strawberries, blueberries, and raspberries to cut through the richness of the cream cheese.",
+            "price": 8.00,
+            "cat": "dessert",
+            "veg": true,
+            "img": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=500",
+            "bg": ""
+        },
+        {
+            "id": 10,
+            "name": "Chicken Tikka - Heritage",
+            "desc": "Tender chicken marinated in yogurt & aromatic spices, char-grilled on skewers.",
+            "long_des": "Boneless chunks of corn-fed chicken are marinated for 24 hours in a hung curd mixture infused with Kashmiri chili, turmeric, and mustard oil. Skewered and roasted in a clay oven to achieve a charred exterior while remaining succulent inside.",
+            "price": 1200.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 11,
+            "name": "Tandoori Chicken Tikka",
+            "desc": "Premium chicken with smoky tandoori spices, cooked in a traditional clay oven.",
+            "long_des": "A royal banquet staple featuring chicken thighs marinated in a robust blend of garam masala, ginger-garlic paste, and lemon juice. Cooked in a high-temperature tandoor to lock in the juices and impart a distinct smoky flavor.",
+            "price": 1300.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 12,
+            "name": "Chicken 65",
+            "desc": "South Indian crispy fried chicken with fresh curry leaves & premium spices.",
+            "long_des": "Bite-sized chicken pieces marinated in a fiery red chili paste and deep-fried to a perfect crisp. The dish is tempered with fresh curry leaves, mustard seeds, and green chilies, offering a spicy and tangy explosion of flavor.",
+            "price": 1100.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 13,
+            "name": "Mutton Tikka",
+            "desc": "Premium mutton chunks in yogurt & spice marinade, char-grilled to perfection.",
+            "long_des": "Tender cubes of leg of lamb, tenderized with raw papaya and marinated in a spiced yogurt blend. Grilled over charcoal, these morsels offer a smoky aroma and a texture that melts in the mouth, garnished with chaat masala.",
+            "price": 1500.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 14,
+            "name": "Tandoori Mutton Chops",
+            "desc": "Premium grilled mutton chops with royal tandoori spices and herb chutney.",
+            "long_des": "Juicy mutton chops marinated in a rich mixture of hung curd, ginger, garlic, and a proprietary spice blend. Roasted in the tandoor, the meat pulls away effortlessly from the bone, delivering a spicy kick and a charred finish.",
+            "price": 1800.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 15,
+            "name": "Galouti Kebab",
+            "desc": "Legendary soft mutton kebabs from Lucknow, seasoned with rare aromatic spices.",
+            "long_des": "The 'melt-in-the-mouth' kebab of Nawabs. Finely minced mutton is tenderized with raw papaya and seasoned with a secret potli masala containing over 100 spices including saffron and rose petals, then pan-seared in clarified butter.",
+            "price": 1200.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 16,
+            "name": "Seekh Kebab",
+            "desc": "Minced mutton skewers grilled over charcoal with coriander and mint.",
+            "long_des": "Hand-minced high-grade mutton blended with kidney fat for moisture, fresh cilantro, mint, and green chilies. Skewered and grilled to create a smoky crust while maintaining a juicy interior, served with a zesty mint chutney.",
+            "price": 1000.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 17,
+            "name": "Lamb Souvlaki",
+            "desc": "Greek-style marinated lamb skewers served with tzatziki and pita.",
+            "long_des": "Tender cubes of lamb loin marinated in extra virgin olive oil, lemon juice, dried oregano, and garlic. Grilled to medium-rare and served with a cooling house-made cucumber and yogurt tzatziki sauce.",
+            "price": 1200.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 18,
+            "name": "Kibbeh Nayyeh",
+            "desc": "Levantine delicacy of fresh raw lamb mince with bulgur and spices.",
+            "long_des": "A delicacy of the Levant, consisting of the freshest raw lamb mince kneaded with fine bulgur wheat, pureed onion, and a mix of Middle Eastern spices. Served cold with mint leaves, olive oil, and scallions.",
+            "price": 1050.00,
+            "cat": "starter",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 30,
+            "name": "Butter Chicken",
+            "desc": "Premium tender chicken in creamy tomato sauce with butter & fresh cream.",
+            "long_des": "Shredded tandoori chicken simmered in a velvety, satin-smooth tomato gravy enriched with cashew paste, fenugreek leaves (kasuri methi), and generous amounts of premium butter and cream. A balance of sweet, tangy, and savory flavors.",
+            "price": 1800.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 31,
+            "name": "Chicken Tikka Masala",
+            "desc": "Grilled chicken in aromatic spiced cream sauce, signature chef preparation.",
+            "long_des": "Char-grilled chicken tikka chunks tossed in a spiced onion-tomato gravy with bell peppers and onions. Finished with a splash of cream and fresh cilantro, bridging the gap between authentic Indian flavors and the British classic.",
+            "price": 1900.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 32,
+            "name": "Chicken Biryani",
+            "desc": "Premium layered rice with tender chicken, aromatic royal spices, dum-cooked.",
+            "long_des": "Long-grain Basmati rice and marinated chicken layered with fried onions, mint, and saffron milk. Sealed in a clay pot (dum) to steam-cook in its own juices, releasing an unmatched aroma upon opening.",
+            "price": 1600.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 33,
+            "name": "Mutton Biryani",
+            "desc": "Layered rice with tender mutton, aromatic royal spices, dum technique.",
+            "long_des": "The crown jewel of Hyderabadi cuisine. Succulent pieces of mutton marinated in yogurt and spices are layered with semi-cooked saffron rice. Slow-cooked on 'dum' for hours, ensuring every grain of rice absorbs the meaty flavors.",
+            "price": 2000.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 34,
+            "name": "Rogan Josh",
+            "desc": "Aromatic mutton in medium-spiced sauce, authentic Kashmiri preparation.",
+            "long_des": "A signature dish from Kashmir featuring mutton braised in a gravy flavored with browned onions, yogurt, garlic, ginger, and aromatic spices like cloves, bay leaves, and cardamom. The brilliant red color comes from 'Ratan Jot' and Kashmiri chilies.",
+            "price": 1900.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 35,
+            "name": "Nihari",
+            "desc": "Rich, slow-cooked mutton stew with bone marrow and spicy gravy.",
+            "long_des": "A flour-based stew where mutton shanks are slow-cooked overnight to extract the rich flavors of the bone marrow. The resulting gravy is thick, silky, and unbelievably savory, garnished with ginger juliennes, green chilies, and lime.",
+            "price": 1800.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 36,
+            "name": "Laal Maas",
+            "desc": "Fiery mutton curry from Rajasthan prepared with Mathania chilies.",
+            "long_des": "A warrior's dish featuring mutton cooked in a fierce sauce made of yogurt and garlic, dominated by the heat and color of the famed Mathania red chilies. Smoky (dhungar) flavor is infused with charcoal and cloves.",
+            "price": 1400.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 37,
+            "name": "Coq au Vin",
+            "desc": "Premium French chicken braised in fine red wine with mushrooms.",
+            "long_des": "A classic French bistro masterpiece. Chicken on the bone is braised slowly in a high-quality Burgundy red wine with bacon lardons, button mushrooms, pearl onions, and garlic, creating a rich, earthy, and wine-infused sauce.",
+            "price": 2400.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 38,
+            "name": "Lamb Osso Buco",
+            "desc": "Italian braised lamb shank, slow-cooked with vegetables and broth.",
+            "long_des": "Cross-cut lamb shanks braised with vegetables, white wine, and broth. The marrow in the hole of the bone melts into the sauce. Traditionally garnished with gremolata (lemon zest, garlic, and parsley) to cut the richness.",
+            "price": 2750.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 39,
+            "name": "Lamb Tagine",
+            "desc": "Moroccan slow-cooked savory stew with dried fruits and spices.",
+            "long_des": "A North African specialty cooked in a conical clay pot. Lamb is stewed with sweet spices like cinnamon and ginger, and combined with dried apricots, prunes, or dates, creating a beautiful sweet and savory profile.",
+            "price": 2000.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 40,
+            "name": "Moussaka",
+            "desc": "Greek layered eggplant and lamb casserole with béchamel sauce.",
+            "long_des": "The lasagna of the Mediterranean. Layers of sautéed eggplant and potato are topped with a rich tomato-based minced lamb meat sauce, covered with a thick layer of creamy béchamel sauce, and baked until golden.",
+            "price": 1850.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        },
+        {
+            "id": 41,
+            "name": "Lamb Wellington",
+            "desc": "Tender lamb loin wrapped in pastry and baked to golden perfection.",
+            "long_des": "A twist on the beef classic. A tender lamb loin is coated in mushroom duxelles and prosciutto, wrapped in puff pastry, and baked. The result is a crispy, golden exterior with a pink, juicy center.",
+            "price": 2700.00,
+            "cat": "main",
+            "veg": false,
+            "img": "https://files.catbox.moe/ntd60i.png",
+            "bg": ""
+        }
+    ],
+    "staff": [
+        {
+            "id": 101,
+            "name": "Langpoklakpam Meiraba Mangang",
+            "position": "Head Chef",
+            "about": "shit things we do.. man...",
+            "long_des": "Meow",
+            "joined": "2015-03-12",
+            "img": "",
+            "bg": ""
+        },
+        {
+            "id": 102,
+            "name": "Mirza Areeb Raza BAG",
+            "position": "Head Chef",
+            "about": "Dumbass",
+            "long_des": "...",
+            "joined": "2016-03-12",
+            "img": "https://files.catbox.moe/tf53gc.jpg",
+            "bg": ""
+        },
+        {
+            "id": 104,
+            "name": "Shreya",
+            "position": "Head Chef",
+            "about": "...",
+            "long_des": "...",
+            "joined": "2015-03-12",
+            "img": "",
+            "bg": ""
+        },
+        {
+            "id": 105,
+            "name": "Loka",
+            "position": "Head Chef",
+            "about": "...",
+            "long_des": "...",
+            "joined": "2015-03-12",
+            "img": "",
+            "bg": ""
+        },
+        {
+            "id": 106,
+            "name": "Gordon R.",
+            "position": "Head Chef",
+            "about": "Expert in French cuisine with a passion for fusion dishes.",
+            "long_des": "With over 20 years of culinary experience in Michelin-starred kitchens across Europe, Gordon brings a masterful touch to French techniques while boldly incorporating modern global flavors. He oversees the entire kitchen operation, ensuring every dish meets our exacting standards of excellence.",
+            "joined": "2015-03-12",
+            "img": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500",
+            "bg": ""
+        },
+        {
+            "id": 107,
+            "name": "Julia C.",
+            "position": "Sous Chef",
+            "about": "Passionate about organic farm-to-table ingredients.",
+            "long_des": "Julia champions our commitment to sustainability, working directly with local farmers to source the freshest seasonal produce. Her culinary philosophy focuses on letting the natural flavors of high-quality ingredients shine, resulting in clean, wholesome, and vibrant dishes that change with the seasons.",
+            "joined": "2018-06-01",
+            "img": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=500",
+            "bg": ""
+        },
+        {
+            "id": 108,
+            "name": "Marco P.",
+            "position": "Pastry Chef",
+            "about": "Creator of our signature desserts and sweets.",
+            "long_des": "A true artisan of the sweet kitchen, Marco combines scientific precision with artistic flair. Specializing in chocolate work and delicate pastries, he crafts the memorable finales to our meals, constantly experimenting with textures and flavor combinations to surprise and delight our guests.",
+            "joined": "2019-11-20",
+            "img": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=500",
+            "bg": "https://images.unsplash.com/photo-1556910103-1c02745a30bf?w=1920"
+        }
+    ]
+}

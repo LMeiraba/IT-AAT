@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - ChakHao</title>
+    <link rel="icon" type="image/png" href="https://files.catbox.moe/skenzm.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="https://files.catbox.moe/skenzm.png" alt="ChakHao Logo" class="logo-img">
+        </a>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links">
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="menu">Menu</a></li>
+            <li><a href="team">Team</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="cart" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <main class="container" style="margin-top: 100px; min-height: 60vh;">
+        <h2 class="section-title">Your Order</h2>
+        
+        <div class="cart-layout">
+            
+            <div class="cart-items-container">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Dish</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-body">
+                        </tbody>
+                </table>
+            </div>
+
+            <div class="cart-summary-card">
+                <h3>Order Summary</h3>
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="subtotal-price">₹0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>GST (5%)</span>
+                    <span id="tax-price">₹0.00</span>
+                </div>
+                <div class="divider"></div>
+                <div class="summary-row total">
+                    <span>Grand Total</span>
+                    <span id="grand-total">₹0.00</span>
+                </div>
+                
+                <button class="btn btn-primary checkout-btn" onclick="checkout()">
+                    Checkout <i class="fas fa-arrow-right"></i>
+                </button>
+                <a href="menu.html" class="continue-link">Continue Ordering</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer style="padding: 20px 0;"></footer>
+    <script src="script.js"></script>
+</body>
+</html>
