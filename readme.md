@@ -3,7 +3,7 @@
 A simple and interactive web application that [briefly describe what the app does, e.g., calculates tips, tracks tasks, or displays weather].
 
 ## 🔗 Live Demo
-[**Click here to view the Live Demo**](https://http://restaurant.aat.meiraba.me/)
+[**Click here to view the Live Demo**](https://restaurant.aat.meiraba.me/)
 
 ## 📸 Screenshot
 ![s2](https://files.catbox.moe/tvzkdq.png)
