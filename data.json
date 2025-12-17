@@ -93,10 +93,10 @@
             "name": "Chicken 65",
             "desc": "South Indian crispy fried chicken with fresh curry leaves & premium spices.",
             "long_des": "Bite-sized chicken pieces marinated in a fiery red chili paste and deep-fried to a perfect crisp. The dish is tempered with fresh curry leaves, mustard seeds, and green chilies, offering a spicy and tangy explosion of flavor.",
-            "price": 1100.00,
+            "price": 1750.00,
             "cat": "starter",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVqXhrznmb9hXl5OAWcdhsGot7DtMTfmAgJA&s",
             "bg": ""
         },
         {
@@ -104,21 +104,21 @@
             "name": "Mutton Tikka",
             "desc": "Premium mutton chunks in yogurt & spice marinade, char-grilled to perfection.",
             "long_des": "Tender cubes of leg of lamb, tenderized with raw papaya and marinated in a spiced yogurt blend. Grilled over charcoal, these morsels offer a smoky aroma and a texture that melts in the mouth, garnished with chaat masala.",
-            "price": 1500.00,
+            "price": 3100.00,
             "cat": "starter",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://static.india.com/wp-content/uploads/2024/11/feature-2024-11-12T124040.775.jpg?impolicy=Medium_Widthonly&w=350&h=263",
             "bg": ""
         },
         {
             "id": 14,
             "name": "Tandoori Mutton Chops",
             "desc": "Premium grilled mutton chops with royal tandoori spices and herb chutney.",
-            "long_des": "Juicy mutton chops marinated in a rich mixture of hung curd, ginger, garlic, and a proprietary spice blend. Roasted in the tandoor, the meat pulls away effortlessly from the bone, delivering a spicy kick and a charred finish.",
-            "price": 1800.00,
+            "long_des": " CHEFS LANGPOKLAKPAM's SIGNATURE DISH <br> Jicy mutton chops marinated in a rich mixture of hung curd, ginger, garlic, and a proprietary spice blend. Roasted in the tandoor, the meat pulls away effortlessly from the bone, delivering a spicy kick and a charred finish.",
+            "price": 5700.00,
             "cat": "starter",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://www.homemadeinterest.com/wp-content/uploads/2022/08/Grilled-Lamb-Chops-in-a-Curry-Marinade_IG-1.jpg",
             "bg": ""
         },
         {
