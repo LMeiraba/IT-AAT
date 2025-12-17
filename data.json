@@ -114,7 +114,7 @@
             "id": 14,
             "name": "Tandoori Mutton Chops",
             "desc": "Premium grilled mutton chops with royal tandoori spices and herb chutney.",
-            "long_des": " CHEFS LANGPOKLAKPAM's SIGNATURE DISH <br> Jicy mutton chops marinated in a rich mixture of hung curd, ginger, garlic, and a proprietary spice blend. Roasted in the tandoor, the meat pulls away effortlessly from the bone, delivering a spicy kick and a charred finish.",
+            "long_des": " <b><i>CHEF's LANGPOKLAKPAM's SIGNATURE DISH</i></b> <br> Juicy mutton chops marinated in a rich mixture of hung curd, ginger, garlic, and a proprietary spice blend. Roasted in the tandoor, the meat pulls away effortlessly from the bone, delivering a spicy kick and a charred finish.",
             "price": 5700.00,
             "cat": "starter",
             "veg": false,
@@ -202,7 +202,7 @@
             "id": 33,
             "name": "Hyderabadi Mutton Biryani",
             "desc": "Layered rice with tender mutton, aromatic royal spices, dum technique.",
-            "long_des": " SIGNATURE DISH OF CHEF AREEB <br> The crown jewel of Hyderabadi cuisine. Succulent pieces of mutton marinated in yogurt and spices are layered with semi-cooked saffron rice. Slow-cooked on 'dum' for hours, ensuring every grain of rice absorbs the meaty flavors.",
+            "long_des": " <b><i>CHEF's AREEB's SIGNATURE DISH </i></b><br> The crown jewel of Hyderabadi cuisine. Succulent pieces of mutton marinated in yogurt and spices are layered with semi-cooked saffron rice. Slow-cooked on 'dum' for hours, ensuring every grain of rice absorbs the meaty flavors.",
             "price": 5700.00,
             "cat": "main",
             "veg": false,
@@ -247,10 +247,10 @@
             "name": "Coq au Vin",
             "desc": "Premium French chicken braised in fine red wine with mushrooms.",
             "long_des": "A classic French bistro masterpiece. Chicken on the bone is braised slowly in a high-quality Burgundy red wine with bacon lardons, button mushrooms, pearl onions, and garlic, creating a rich, earthy, and wine-infused sauce.",
-            "price": 2400.00,
+            "price": 4999.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHKXAOczxhZXTJWAmUMmAbFLxLnXmDwQxx-g&s",
             "bg": ""
         },
         {
@@ -258,10 +258,10 @@
             "name": "Lamb Osso Buco",
             "desc": "Italian braised lamb shank, slow-cooked with vegetables and broth.",
             "long_des": "Cross-cut lamb shanks braised with vegetables, white wine, and broth. The marrow in the hole of the bone melts into the sauce. Traditionally garnished with gremolata (lemon zest, garlic, and parsley) to cut the richness.",
-            "price": 2750.00,
+            "price": 4199.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJ_tme8XRor7VL2f1sXjwR4JJ2dIU0TfUWA&s",
             "bg": ""
         },
         {
@@ -269,10 +269,10 @@
             "name": "Lamb Tagine",
             "desc": "Moroccan slow-cooked savory stew with dried fruits and spices.",
             "long_des": "A North African specialty cooked in a conical clay pot. Lamb is stewed with sweet spices like cinnamon and ginger, and combined with dried apricots, prunes, or dates, creating a beautiful sweet and savory profile.",
-            "price": 2000.00,
+            "price": 4299.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKfEgbKA1s49d2plf7vnEDQE_oJm7bx4_30g&s",
             "bg": ""
         },
         {
@@ -280,10 +280,10 @@
             "name": "Moussaka",
             "desc": "Greek layered eggplant and lamb casserole with béchamel sauce.",
             "long_des": "The lasagna of the Mediterranean. Layers of sautéed eggplant and potato are topped with a rich tomato-based minced lamb meat sauce, covered with a thick layer of creamy béchamel sauce, and baked until golden.",
-            "price": 1850.00,
+            "price": 3550.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ50LVydLz2muOJs7D2phCpIqca9ZC-ZYPLxw&s",
             "bg": ""
         },
         {
@@ -291,10 +291,10 @@
             "name": "Lamb Wellington",
             "desc": "Tender lamb loin wrapped in pastry and baked to golden perfection.",
             "long_des": "A twist on the beef classic. A tender lamb loin is coated in mushroom duxelles and prosciutto, wrapped in puff pastry, and baked. The result is a crispy, golden exterior with a pink, juicy center.",
-            "price": 2700.00,
+            "price": 3350.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1itLe38nt4KdYbELNxJObaSdUHRvkfe9BsA&s",
             "bg": ""
         }
     ],
