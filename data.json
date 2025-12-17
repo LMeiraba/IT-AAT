@@ -126,10 +126,10 @@
             "name": "Galouti Kebab",
             "desc": "Legendary soft mutton kebabs from Lucknow, seasoned with rare aromatic spices.",
             "long_des": "The 'melt-in-the-mouth' kebab of Nawabs. Finely minced mutton is tenderized with raw papaya and seasoned with a secret potli masala containing over 100 spices including saffron and rose petals, then pan-seared in clarified butter.",
-            "price": 1200.00,
+            "price": 3185.00,
             "cat": "starter",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://varuninamdar.wordpress.com/wp-content/uploads/2017/02/2017-02-08-14-19-03.png",
             "bg": ""
         },
         {
@@ -137,10 +137,10 @@
             "name": "Seekh Kebab",
             "desc": "Minced mutton skewers grilled over charcoal with coriander and mint.",
             "long_des": "Hand-minced high-grade mutton blended with kidney fat for moisture, fresh cilantro, mint, and green chilies. Skewered and grilled to create a smoky crust while maintaining a juicy interior, served with a zesty mint chutney.",
-            "price": 1000.00,
+            "price": 3485.00,
             "cat": "starter",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://i.pinimg.com/736x/da/2f/a1/da2fa1b18c169ba9082d6baae9da72c7.jpg",
             "bg": ""
         },
         {
@@ -148,10 +148,10 @@
             "name": "Lamb Souvlaki",
             "desc": "Greek-style marinated lamb skewers served with tzatziki and pita.",
             "long_des": "Tender cubes of lamb loin marinated in extra virgin olive oil, lemon juice, dried oregano, and garlic. Grilled to medium-rare and served with a cooling house-made cucumber and yogurt tzatziki sauce.",
-            "price": 1200.00,
+            "price": 3555.00,
             "cat": "starter",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://www.dianekochilas.com/wp-content/uploads/2023/04/Greek-recipe-lamb-souvlaki.jpg",
             "bg": ""
         },
         {
@@ -159,10 +159,10 @@
             "name": "Kibbeh Nayyeh",
             "desc": "Levantine delicacy of fresh raw lamb mince with bulgur and spices.",
             "long_des": "A delicacy of the Levant, consisting of the freshest raw lamb mince kneaded with fine bulgur wheat, pureed onion, and a mix of Middle Eastern spices. Served cold with mint leaves, olive oil, and scallions.",
-            "price": 1050.00,
+            "price": 2765.00,
             "cat": "starter",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://www.alphafoodie.com/wp-content/uploads/2023/01/Kibbeh-square.jpeg",
             "bg": ""
         },
         {
@@ -170,10 +170,10 @@
             "name": "Butter Chicken",
             "desc": "Premium tender chicken in creamy tomato sauce with butter & fresh cream.",
             "long_des": "Shredded tandoori chicken simmered in a velvety, satin-smooth tomato gravy enriched with cashew paste, fenugreek leaves (kasuri methi), and generous amounts of premium butter and cream. A balance of sweet, tangy, and savory flavors.",
-            "price": 1800.00,
+            "price": 2450.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://images.livemint.com/img/2020/12/15/original/Butter_chicken_recipe_Mint_Lounge_1608018577084_1608018594723.jpg",
             "bg": ""
         },
         {
@@ -181,43 +181,43 @@
             "name": "Chicken Tikka Masala",
             "desc": "Grilled chicken in aromatic spiced cream sauce, signature chef preparation.",
             "long_des": "Char-grilled chicken tikka chunks tossed in a spiced onion-tomato gravy with bell peppers and onions. Finished with a splash of cream and fresh cilantro, bridging the gap between authentic Indian flavors and the British classic.",
-            "price": 1900.00,
+            "price": 2350.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE_jxW7GIhqQ5V_bI-IGjkGeFhIBjHOsPuUg&s",
             "bg": ""
         },
         {
             "id": 32,
-            "name": "Chicken Biryani",
+            "name": "Hyderabadi Chicken Biryani",
             "desc": "Premium layered rice with tender chicken, aromatic royal spices, dum-cooked.",
             "long_des": "Long-grain Basmati rice and marinated chicken layered with fried onions, mint, and saffron milk. Sealed in a clay pot (dum) to steam-cook in its own juices, releasing an unmatched aroma upon opening.",
-            "price": 1600.00,
+            "price": 2960.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv6M60QOLZbXaH50_w4cWUf9GqOlpiIxAygg&s",
             "bg": ""
         },
         {
             "id": 33,
-            "name": "Mutton Biryani",
+            "name": "Hyderabadi Mutton Biryani",
             "desc": "Layered rice with tender mutton, aromatic royal spices, dum technique.",
-            "long_des": "The crown jewel of Hyderabadi cuisine. Succulent pieces of mutton marinated in yogurt and spices are layered with semi-cooked saffron rice. Slow-cooked on 'dum' for hours, ensuring every grain of rice absorbs the meaty flavors.",
-            "price": 2000.00,
+            "long_des": " SIGNATURE DISH OF CHEF AREEB <br> The crown jewel of Hyderabadi cuisine. Succulent pieces of mutton marinated in yogurt and spices are layered with semi-cooked saffron rice. Slow-cooked on 'dum' for hours, ensuring every grain of rice absorbs the meaty flavors.",
+            "price": 5700.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/eq9leubhlduotmmi9lrm",
             "bg": ""
         },
         {
             "id": 34,
-            "name": "Rogan Josh",
+            "name": " Mutton Rogan Josh",
             "desc": "Aromatic mutton in medium-spiced sauce, authentic Kashmiri preparation.",
             "long_des": "A signature dish from Kashmir featuring mutton braised in a gravy flavored with browned onions, yogurt, garlic, ginger, and aromatic spices like cloves, bay leaves, and cardamom. The brilliant red color comes from 'Ratan Jot' and Kashmiri chilies.",
-            "price": 1900.00,
+            "price": 3600.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW0EdS7bf44iB_uy4vAos9P9DdY-NdhZeUnw&s",
             "bg": ""
         },
         {
@@ -225,10 +225,10 @@
             "name": "Nihari",
             "desc": "Rich, slow-cooked mutton stew with bone marrow and spicy gravy.",
             "long_des": "A flour-based stew where mutton shanks are slow-cooked overnight to extract the rich flavors of the bone marrow. The resulting gravy is thick, silky, and unbelievably savory, garnished with ginger juliennes, green chilies, and lime.",
-            "price": 1800.00,
+            "price": 3700.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhf6wj0hjXJ10onK-U80J_0dsPLjtdjjUYPQ&s",
             "bg": ""
         },
         {
@@ -236,10 +236,10 @@
             "name": "Laal Maas",
             "desc": "Fiery mutton curry from Rajasthan prepared with Mathania chilies.",
             "long_des": "A warrior's dish featuring mutton cooked in a fierce sauce made of yogurt and garlic, dominated by the heat and color of the famed Mathania red chilies. Smoky (dhungar) flavor is infused with charcoal and cloves.",
-            "price": 1400.00,
+            "price": 3450.00,
             "cat": "main",
             "veg": false,
-            "img": "https://files.catbox.moe/ntd60i.png",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX3xrmTCXDRUc9gI-cF9ak2eRG66yUQ1acNA&s",
             "bg": ""
         },
         {
