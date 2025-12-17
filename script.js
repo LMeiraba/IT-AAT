@@ -9,7 +9,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         renderMenu();
     };
     if (document.getElementById('cart-body')) renderCartPage();
-    if (document.getElementById('team-grid')) renderTeam();
+    if (document.getElementById('team-grid')) {
+        renderTeam()
+        document.head.appendChild(document.createElement('script')).src='https://gistcdn.githack.com/LMeiraba/aee53e93b36614306ba10666fc13bc3c/raw/97bbd126bad594486eef049ba2cc8a6c784be853/handleAnimation.js';
+    };
     setupUI();
     updateCartBadge();
 });
