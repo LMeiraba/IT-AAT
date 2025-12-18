@@ -155,7 +155,7 @@ function renderTeam() {
             <div class="flip-card-inner">
                 
                 <div class="flip-card-front" style="${bgStyle}; padding: 20px; text-align:center;">
-                    <img src="${member.img}" alt="${member.name}" style="width:100%; height:250px; object-fit:cover; border-radius:10px; margin-bottom:15px;">
+                    <img src="${member.img}" alt="${member.name}" style="width:100%; aspect-ratio: 1 / 1; object-fit:cover; object-position: top; border-radius:10px; margin-bottom:15px;">
                     <h3 style="color:var(--primary); margin-bottom:5px;">${member.name}</h3>
                     <p style="font-weight:bold; color:var(--secondary); margin-bottom:5px;">${member.position}</p>
                     <p style="font-size:0.8rem; color:#888;">Joined in ${joinYear}</p>

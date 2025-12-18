@@ -769,3 +769,11 @@ body { background-color: var(--bg); color: var(--text); overflow-x: hidden; }
     .cart-table { min-width: 600px; } /* Forces scroll on mobile */
     .cart-summary-card { width: 100%; }
 }
+@media screen and (max-width: 768px) {
+    .flip-card-front img {
+        height: auto !important;   /* STOP forcing 250px height */
+        aspect-ratio: 4 / 3;       /* Keep a nice rectangular shape */
+        object-fit: cover !important;
+        object-position: top center !important; /* Focus on the face */
+    }
+}
