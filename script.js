@@ -1,9 +1,10 @@
-// --- 1. GLOBAL VARIABLES ---
 let globalMenu = [];
 let currentCategory = 'all';
-// --- 2. INITIALIZATION ---
+
+
 document.addEventListener("DOMContentLoaded", async () => {
     await loadData();
+    //check which page is loaded
     if (document.getElementById('menu-grid')){
         setupMenuControls();
         renderMenu();
@@ -17,21 +18,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     updateCartBadge();
 });
 
-// --- 3. DATA FETCHING ---
+// --- . DATA FETCHING ---
 async function loadData() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('data.json');//file in the same directory
         const data = await response.json();
         globalMenu = data.menu;
-        globalTeam = data.staff; // Changed from data.team to match json key "staff"
+        globalTeam = data.staff;
     } catch (error) {
         console.error("Error loading JSON:", error);
     }
 }
 
-// --- 4. PAGE RENDERING FUNCTIONS ---
+// --- . PAGE RENDERING FUNCTIONS ---
 
-// RENDER MENU (With Flip Logic)
 function setupMenuControls() {
     // 1. Category Buttons
     const buttons = document.querySelectorAll('.filter-btn');
@@ -54,7 +54,7 @@ function setupMenuControls() {
     document.getElementById('vegCheckbox').addEventListener('change', renderMenu);
 }
 
-// --- MASTER RENDER FUNCTION (With INR) ---
+// --- menu RENDER FUNCTION --
 function renderMenu() {
     const grid = document.getElementById('menu-grid');
     if (!grid) return;
@@ -100,7 +100,7 @@ function renderMenu() {
         const bgStyle = item.bg ? `background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('${item.bg}'); background-size: cover;` : '';
         const longDesc = item.long_des || "Delicious authentic flavors.";
 
-        // NEW: Calculate the correct button state (Add vs +/-) for this specific item
+        //Calculate the correct button state (Add vs +/-) for this specific item
         const buttonHTML = getButtonHTML(item.id);
         // console.log(item);
         return `
@@ -140,7 +140,7 @@ function renderMenu() {
     }).join('');
 }
 
-// RENDER TEAM (With Flip Logic)
+// RENDER TEAM 
 function renderTeam() {
     const grid = document.getElementById('team-grid');
     if (!grid) return;
@@ -174,8 +174,7 @@ function renderTeam() {
     }).join('');
 }
 
-// RENDER CART (Unchanged logic, just mapping globalMenu)
-// --- 5. RENDER CART PAGE (Final Version) ---
+// --- 5. RENDER CART PAGE -
 function renderCartPage() {
     const tbody = document.getElementById('cart-body');
     const subtotalEl = document.getElementById('subtotal-price');
@@ -320,7 +319,7 @@ function menuChangeQty(id, change) {
     refreshItemUI(id); // Update just this button
 }
 
-// UI UPDATE: Refresh only the button zone (prevents whole grid flickering)
+// UI UPDATE: Refresh only the button zone, prevent reloading the entire menu
 function refreshItemUI(id) {
     const zone = document.getElementById(`btn-zone-${id}`);
     if (zone) {
@@ -335,7 +334,7 @@ function getCart() {
 
 function saveCart(cart) {
     const d = new Date();
-    d.setTime(d.getTime() + (7*24*60*60*1000));
+    d.setTime(d.getTime() + (7*24*60*60*1000));//save for 1 week
     document.cookie = `chakhaoCart=${encodeURIComponent(JSON.stringify(cart))}; expires=${d.toUTCString()}; path=/`;
     updateCartBadge();
 }
@@ -371,7 +370,6 @@ function updateCartBadge() {
     if (badge) badge.innerText = count;
 }
 
-// --- 6. UI HELPERS ---
 function setupUI() {
     const loader = document.getElementById("loader-wrapper");
     if(loader) setTimeout(() => { loader.style.opacity = "0"; setTimeout(() => loader.style.display = "none", 500); }, 800);
