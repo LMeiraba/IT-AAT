@@ -296,6 +296,96 @@
             "veg": false,
             "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1itLe38nt4KdYbELNxJObaSdUHRvkfe9BsA&s",
             "bg": ""
+        },
+        {
+            "id": 42,
+            "name": "Paneer Butter Masala",
+            "desc": "Creamy tomato & butter paneer curry",
+            "long_des": "Soft cubes of paneer cooked in a rich tomato-butter gravy with aromatic spices, a restaurant favorite. :contentReference[oaicite:0]{index=0}",
+            "price": 289,
+            "cat": "main",
+            "veg": true,
+            "img": "https://i0.wp.com/aartimadan.com/wp-content/uploads/2023/11/Paneer-Butter-Masala-Restaurant-Style.jpg?fit=800%2C449&ssl=1"
+        },
+        {
+            "id": 43,
+            "name": "Veg Kadai",
+            "desc": "Mixed veg in spicy kadai gravy",
+            "long_des": "Fresh seasonal vegetables tossed in bold kadai masala with onions and capsicum — robust and flavorful. :contentReference[oaicite:1]{index=1}",
+            "price": 269,
+            "cat": "main",
+            "veg": true,
+            "img": "https://www.dwarakaorganic.com/wp-content/uploads/2025/12/Veg-Kadai-1024x683.jpg"
+        },
+        {
+            "id": 44,
+            "name": "Palak Paneer",
+            "desc": "Spinach & paneer curry",
+            "long_des": "Nutritious spinach puree cooked with mild spices and cubes of paneer for a classic North Indian delicacy. :contentReference[oaicite:2]{index=2}",
+            "price": 279,
+            "cat": "main",
+            "veg": true,
+            "img": "https://www.yummytummyaarthi.com/wp-content/uploads/2021/11/palak-paneer-1.jpg"
+        },
+        {
+            "id": 45,
+            "name": "Veg Fried Rice",
+            "desc": "Indo-Chinese style veg rice",
+            "long_des": "Colorful fried rice with carrots, peas, capsicum, and aromatic seasonings — hearty and satisfying. :contentReference[oaicite:3]{index=3}",
+            "price": 219,
+            "cat": "main",
+            "veg": true,
+            "img": "https://i0.wp.com/sirisblog.com/wp-content/uploads/2024/05/20210905_140559-scaled.jpg?resize=840%2C630&ssl=1"
+        },
+        {
+            "id": 46,
+            "name": "Gulab Jamun",
+            "desc": "Milk dumplings in sugar syrup",
+            "long_des": "Soft deep-fried milk solids soaked in warm aromatic sugar syrup — a classic Indian dessert. :contentReference[oaicite:4]{index=4}",
+            "price": 129,
+            "cat": "dessert",
+            "veg": true,
+            "img": "https://www.cadburydessertscorner.com/hubfs/dc-website-2022/articles/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know.webp"
+        },
+        {
+            "id": 47,
+            "name": "Rasgulla",
+            "desc": "Spongy chenna balls in syrup",
+            "long_des": "Light and spongy cottage cheese balls soaked in chilled sugar syrup — sweet and refreshing. :contentReference[oaicite:5]{index=5}",
+            "price": 129,
+            "cat": "dessert",
+            "veg": true,
+            "img": "https://www.thespruceeats.com/thmb/LRHVkNnPFRGjN5LixQWD1C9Pnjw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rasgulla-indian-dessert-1957839-hero-01-7c3528a2d34a4f1b9248c7483a73d0a6.jpg"
+        },
+        {
+            "id": 48,
+            "name": "Vanilla Ice Cream",
+            "desc": "Classic vanilla dessert",
+            "long_des": "Creamy vanilla ice cream made with real vanilla — timeless and refreshing. :contentReference[oaicite:6]{index=6}",
+            "price": 99,
+            "cat": "dessert",
+            "veg": true,
+            "img": "https://www.biggerbolderbaking.com/wp-content/uploads/2023/05/homemade-vanilla-ice-cream-thubnail-scaled.jpg"
+        },
+        {
+            "id": 49,
+            "name": "Chocolate Lava Cake",
+            "desc": "Warm cake with molten center",
+            "long_des": "Rich chocolate cake with a gooey molten chocolate core — decadent and indulgent. :contentReference[oaicite:7]{index=7}",
+            "price": 179,
+            "cat": "dessert",
+            "veg": false,
+            "img": "https://hips.hearstapps.com/hmg-prod/images/chocolate-lava-cake-index-65c25056f21fb.jpg?crop=0.8891482670297961xw:1xh;center,top&resize=1200:*"
+        },
+        {
+            "id": 50,
+            "name": "Fruit Custard",
+            "desc": "Fruits in creamy custard",
+            "long_des": "Seasonal fresh fruits folded into smooth vanilla custard — light and delightful. :contentReference[oaicite:8]{index=8}",
+            "price": 149,
+            "cat": "dessert",
+            "veg": true,
+            "img": "https://www.indianveggiedelight.com/wp-content/uploads/2023/03/fruit-custard-featured.jpg"
         }
     ],
     "staff": [
@@ -304,7 +394,7 @@
             "name": "Meiraba",
             "position": "Head Chef",
             "about": "Try Signature Mutton Tikka Chops",
-            "long_des": "Meow",
+            "long_des": "...",
             "joined": "2015-03-12",
             "img": "https://files.catbox.moe/6087ok.jpeg",
             "bg": ""
@@ -340,16 +430,6 @@
             "bg": ""
         },
         {
-            "id": 106,
-            "name": "Gordon R.",
-            "position": "Head Chef",
-            "about": "Expert in French cuisine with a passion for fusion dishes.",
-            "long_des": "With over 20 years of culinary experience in Michelin-starred kitchens across Europe, Gordon brings a masterful touch to French techniques while boldly incorporating modern global flavors. He oversees the entire kitchen operation, ensuring every dish meets our exacting standards of excellence.",
-            "joined": "2015-03-12",
-            "img": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500",
-            "bg": ""
-        },
-        {
             "id": 107,
             "name": "Kartikay",
             "position": "Head Janitor",
@@ -361,13 +441,13 @@
         },
         {
             "id": 108,
-            "name": "Marco P.",
-            "position": "Pastry Chef",
-            "about": "Creator of our signature desserts and sweets.",
-            "long_des": "A true artisan of the sweet kitchen, Marco combines scientific precision with artistic flair. Specializing in chocolate work and delicate pastries, he crafts the memorable finales to our meals, constantly experimenting with textures and flavor combinations to surprise and delight our guests.",
+            "name": "Ja Nan Deep",
+            "position": "Waiter",
+            "about": "I like waiting.",
+            "long_des": "hehe",
             "joined": "2019-11-20",
-            "img": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=500",
-            "bg": "https://images.unsplash.com/photo-1556910103-1c02745a30bf?w=1920"
+            "img": "https://files.catbox.moe/1qxk8n.jpg",
+            "bg": ""
         }
     ]
 }
