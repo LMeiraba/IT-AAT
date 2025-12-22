@@ -114,7 +114,7 @@
             "id": 14,
             "name": "Tandoori Mutton Chops",
             "desc": "Premium grilled mutton chops with royal tandoori spices and herb chutney.",
-            "long_des": " <b><i>CHEF's LANGPOKLAKPAM's SIGNATURE DISH</i></b> <br> Juicy mutton chops marinated in a rich mixture of hung curd, ginger, garlic, and a proprietary spice blend. Roasted in the tandoor, the meat pulls away effortlessly from the bone, delivering a spicy kick and a charred finish.",
+            "long_des": " <b><i>CHEF's Meiraba's SIGNATURE DISH</i></b> <br> Juicy mutton chops marinated in a rich mixture of hung curd, ginger, garlic, and a proprietary spice blend. Roasted in the tandoor, the meat pulls away effortlessly from the bone, delivering a spicy kick and a charred finish.",
             "price": 5700.00,
             "cat": "starter",
             "veg": false,
@@ -301,7 +301,7 @@
     "staff": [
         {
             "id": 101,
-            "name": "Langpoklakpam Meiraba Mangang",
+            "name": "Meiraba",
             "position": "Head Chef",
             "about": "Try Signature Mutton Tikka Chops",
             "long_des": "Meow",
@@ -311,7 +311,7 @@
         },
         {
             "id": 102,
-            "name": "Mirza Areeb Raza BAIG",
+            "name": "Mirza Areeb Raza Baig",
             "position": "Head Chef",
             "about": "Try Signature Hyderabadi Mutton Biryani",
             "long_des": "...",
@@ -351,7 +351,7 @@
         },
         {
             "id": 107,
-            "name": "Kartikay Purohit",
+            "name": "Kartikay",
             "position": "Head Janitor",
             "about": "Passionate about keeping washrooms clean.",
             "long_des": "Karikay champions our commitment to sustainability, working directly with top quality cleaning reagents. His  philosophy focuses on keeping the toilets shine, resulting in clean, wholesome, and vibrant washrooms.",
