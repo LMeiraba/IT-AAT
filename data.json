@@ -446,8 +446,27 @@
             "about": "I like waiting.",
             "long_des": "hehe",
             "joined": "2019-11-20",
-            "img": "https://files.catbox.moe/1qxk8n.jpg",
+            "img": "https://files.catbox.moe/qh9qp1.jpg",
             "bg": ""
+        },
+        {
+            "id":109,
+            "name" : "Jay",
+            "img" :"https://files.catbox.moe/2jv389.jpg",
+            "position": "Cashier",
+            "about": "I like money.",
+            "long_des": "my money dont zigggle",
+            "joined": "2017-11-20",
+            
+        },
+        {
+            "id": 111,
+            "name": "Adi",
+            "position": "Waiter 2",
+            "about": "I like waiting more.",
+            "long_des": "🍽️🍽️🍽️🍽️",
+            "joined": "2019-11-20",
+            "img":"https://files.catbox.moe/vzwm8g.jpg"
         }
     ]
 }
