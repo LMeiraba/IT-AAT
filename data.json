@@ -457,6 +457,7 @@
             "about": "I like money.",
             "long_des": "my money dont zigggle",
             "joined": "2017-11-20",
+            "bg":""
             
         },
         {
@@ -464,9 +465,10 @@
             "name": "Adi",
             "position": "Waiter 2",
             "about": "I like waiting more.",
-            "long_des": "🍽️🍽️🍽️🍽️",
+            "long_des": "lol",
             "joined": "2019-11-20",
-            "img":"https://files.catbox.moe/vzwm8g.jpg"
+            "img":"https://files.catbox.moe/vzwm8g.jpg",
+            "bg":""
         }
     ]
 }
